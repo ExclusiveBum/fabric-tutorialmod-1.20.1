@@ -1,5 +1,8 @@
 package net.ergaxyn.tutorialmod;
 
+import net.ergaxyn.tutorialmod.block.ModBlocks;
+import net.ergaxyn.tutorialmod.item.ModItemGroups;
+import net.ergaxyn.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,9 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
