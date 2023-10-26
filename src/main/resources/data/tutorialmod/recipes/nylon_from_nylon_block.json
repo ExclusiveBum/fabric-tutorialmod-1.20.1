@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "tutorialmod:nylon_block"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:nylon",
+    "count": 9
+  }
+}
